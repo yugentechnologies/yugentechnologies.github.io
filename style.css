@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css?family=Syncopate|Open+Sans|Karla');
+
+body {
+    font-size: 15px;
+    line-height: 2em;
+}
+
+* {
+    font-family: 'Karla', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+    -webkit-transition: all 0.65s ease;
+    -moz-transition: all 0.65s ease;
+    -ms-transition: all 0.65s ease;
+    -o-transition: all 0.65s ease;
+    transition: all 0.65s ease;
+}
+
+a, a:hover, a:focus, a:checked {
+    color: inherit;
+    text-decoration: none;
+}
+
+*:hover, *:active, *:link, *:visited, *:focus {
+    list-style: none;
+    text-decoration: none;
+}
+
+#footer-logo {
+    background: url("logo.png") no-repeat center;
+    background-size: contain;
+    margin-top: 30px;
+    height: 64px;
+}
+
+footer div.logo-container {
+    text-align: center;
+    color: #c2986b;
+}
+
+footer div.logo-container p {
+    padding-top: 30px;
+    font-family: 'Syncopate', sans-serif;
+}
+
+section {
+    padding: 100px 0;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: url("media/8.gif") no-repeat center;
+    background-size: cover;
+}
+
+footer {
+    padding: 60px 0;
+    width: 100%;
+    background-color: #0e1127;
+    color: #b8b8b8;
+    font-family: 'Karla', sans-serif;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 4px;
+    font-size: 1.5em;
+    border-bottom: 2px solid hsla(0, 0%, 84%, .2);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+footer a {
+    font-weight: 100;
+    line-height: 22px;
+    color: #d9d9d9;
+    text-decoration: none;
+    will-change: opacity;
+    transition: opacity .62s cubic-bezier(.19, 1, .22, 1);
+    opacity: .7;
+    font-size: 12px;
+}
+
+footer a:hover {
+    opacity: 1;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+header .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0;
+    line-height: 1.2;
+}
+
+.banner {
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Syncopate', sans-serif;
+    color: #c2986b;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 0;
+}
+
+header .subtitle{
+    color: #fafafa;
+}
+
+address {
+    margin-bottom: 0;
+}
+
+.footer-copyright .wrapper-copyright {
+    color: #9397a3;
+    text-align: center;
+    background-color: #1a1d32;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+section#about-us {
+    background: #fff;
+    color: #666666;
+}
+
+section#about-us #header {
+    letter-spacing: 6px;
+}
+
+section h1 {
+    line-height: 1.2;
+    margin: 40px 0;
+}
+
+section p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+section#about-us div.services {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+section#about-us div.services li:hover {
+    cursor: pointer;
+    color: #c2986b;
+}
+
+section#it {
+    background-color: #2c4b88;
+    color: #dddddd;
+}
+
+section#it .it-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+section#it #it-image {
+    height: 250px;
+    margin-top: -150px;
+}
+
+section#it .it-gif-container {
+    height: 570px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+section#it .it-gif-container img {
+    width: 35vw;
+}
+
+section#gis div.row {
+    margin-top: 100px;
+}
+
+section#gis .gis-image-container {
+    padding: 0;
+}
+
+section#gis .gis-image-container img {
+    width: 100%;
+    margin-left: -50px;
+}
+
+section#gis {
+    text-align: center;
+    background-color: #fff;
+}
+
+section#gis div.gis-service {
+    display: flex;
+    flex-flow: row;
+    padding-left: 60px;
+
+}
+
+section#gis div.gis-service ul {
+    max-height: 50px;
+    transition: max-height 0.55s ease-out;
+    overflow: hidden;
+    text-align: left;
+}
+
+section#gis div.gis-service:hover ul {
+    max-height: 500px;
+    transition: max-height 0.75s ease-in;
+}
+
+section#gis div.gis-service li {
+    opacity: 0;
+}
+
+section#gis div.gis-service:hover li {
+    opacity: 1;
+}
+
+section#gis div.gis-service h4 {
+    padding-left: 40px;
+    text-align: left;
+}
+
+section#gis div.gis-service:hover h4, section#gis div.gis-service:hover i {
+    color: #c2986b;
+}
+
+section#gis div.gis-service{
+    cursor: pointer;
+}
+
+section#gis h1 {
+    font-size: 30px;
+}
+
+section#gis i {
+    width: 40px;
+}
+
+section#energy {
+    background: #313853 ;
+    background-size: 60%;
+    color: #dddddd;
+    position: relative;
+}
+
+section#energy .overlay {
+    background-color: rgba(18, 3, 102, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section#energy h1 {
+    text-align: center;
+}
+
+section#energy div.service {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+section#energy div.service img {
+    height: 200px;
+}
+
+section#energy h3 {
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    color: #c2986b;
+}
+
+section#trading div.row.trade-image-block {
+    padding-top: 30px;
+}
+
+section#import {
+    position: relative;
+    background-color: #fff;
+    color: #000;
+}
+
+section#export {
+    position: relative;
+    background-color: #212231;
+    color: #d9d9d9;
+}
+
+section#import div.trade-image-block > div.import-image {
+    background: url("media/import.gif") center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+section#export div.export-image {
+    background: url("media/export.gif") center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+}
+
+section#import div.underline {
+    margin: 25px 0;
+    width: 40px;
+    height: 2px;
+    background-color: #000;
+}
+
+section#export div.underline {
+    margin: 25px 0;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+}
+
+section#import div.import-text-container {
+    padding-right: 100px;
+}
+
+section#export div.export-text-container {
+    padding-left: 100px;
+}
+
+section#contact-us {
+    background-color: #ffffff;
+}
+
+section#contact-us i {
+    border: 1px solid #c2986b;
+    color: #666666;
+    border-radius: 50%;
+    float: left;
+    height: 42px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    text-align: center;
+    width: 42px;
+}
+
+section#contact-us i:hover {
+    background-color: #c2986b;
+}
+
+section#contact-us h3 {
+    font-family: 'Syncopate', sans-serif;
+    color: #c2986b;
+}
+
+section#contact-us div.underline {
+    margin: 25px 0;
+    width: 80px;
+    height: 2px;
+    background-color: #c2986b;
+}
+
+section#contact-us div.contact-image {
+    background: url("media/contact.gif") center no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+section#contact-us div.contact-info-item {
+    clear: both;
+    display: block;
+    line-height: 40px;
+}
+
+@media (max-width: 992px) {
+    section#it .it-gif-container {
+        display: none;
+    }
+
+    section#gis .gis-image-container img {
+        width: 80vw;
+        height: auto;
+        margin-left: 0;
+    }
+
+    section#it #it-image {
+        height: 30vh;
+        margin-top: -100px;
+    }
+
+    section#about-us div.services {
+        padding: 0;
+        margin-bottom: 60px;
+    }
+
+    section#gis div.gis-service {
+        padding: 0;
+    }
+
+    section#gis div.row {
+        margin-top: 30px;
+    }
+
+    section#gis div.gis-service ul {
+        max-height: 10px;
+    }
+
+    section#export div.export-image, section#import div.import-image {
+        display: none;
+    }
+
+    section#export div.export-text-container, section#import div.import-text-container {
+        padding: 20px;
+    }
+
+    section#contact-us div.row.contact-header {
+        padding: 0 20px;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+}
+
+/*Navbar*/
+#navbar a {
+    color: #6f6f6f;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navbar a:hover, #navbar.navbar_no-background a:hover {
+    color: #c2986b;
+}
+
+#navbar.navbar_no-background a {
+    color: #fafafa;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #c2986b !important;
+    background-color: transparent;
+}
+
+/*navbar toggle*/
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #c2986b;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+    border-color: #c2986b;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #c2986b;
+}
+
+/*---------------*/
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand img {
+    height: 28px;
+}
+
+.navbar-default {
+    border: none;
+    background-color: #fafafa;
+    box-shadow: 0px 5px 25px -9px #c2986b;
+}
+
+.navbar_no-background {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.nav-fixed {
+    position: fixed;
+    top: 0;
+    padding: 0 15px;
+    background-clip: content-box;
+    margin: 0 auto;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 5px 25px -9px #c2986b;
+}
+
+/* .nav-shadow {
+    box-shadow: 0px 5px 25px -9px rgba(0, 0, 0, 0.8);
+} */
